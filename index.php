@@ -1,6 +1,6 @@
 <?php
 $accessToken = 'IGQVJYODNOdVp5OHJlTk1sd3hMQmx6a09ObWt2NHVwNGZANNURnZAHlYazlKS2o0cWVVT29WMk9xSjBTMk92MHd0dFFJM0syRHNsaHlHMzktQlhINjY1SV9tc1BGb2J0RndHVW9LcElzaFVPSVg1X0UwRQZDZD'; // Ganti dengan access token Anda
-$userId = '5988100287905652'; 
+$userId = '5988100287905652'; // ganti dengan user id anda
 
 $url = "https://graph.instagram.com/{$userId}/media?fields=id,caption,media_type,media_url&access_token={$accessToken}";
 
